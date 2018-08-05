@@ -1,0 +1,30 @@
+{
+  "name": "wp-child",
+  "version": "1.0.0",
+  "description": "Wordpress Child Theme with Webpack and SASS",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "build": "webpack --mode development",
+    "dist": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "Matthew Eldredge",
+  "license": "ISC"
+}

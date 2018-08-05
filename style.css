@@ -1,0 +1,11 @@
+/*
+		Theme Name: Customizing Wordpress
+		Theme URI: http://wordpress:8080/
+		Description: This is a child theme of 2014
+		Author: Matthew Eldredge
+		Email: mattheweldredge@gmail.com
+		Template: twentyfifteen
+		Version: 0.1
+		*/
+
+@import url('../twentyfifteen/style.css');
